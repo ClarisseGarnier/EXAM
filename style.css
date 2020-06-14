@@ -1,0 +1,157 @@
+/*style.css*/
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 13px;
+}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+}
+
+header{
+	height: 80px;
+}
+
+footer{
+	height: 50px;
+	text-align: center;
+	color: white;
+	background: rgb(85,165,255);
+	border-top: 2px;
+	border-color: red;
+	padding-top: 30px;
+}
+
+nav li{
+	float: left;
+	list-style-type: none; 
+
+}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+nav {
+	width: 100%;
+}
+
+nav a{
+	padding: 20px 30px;
+	display: inline-block;
+	font-size: 15px;
+	color: black;
+}
+
+nav a:hover {
+	color: rgb(163,121,241);
+	font-size: 20px;
+}
+
+.menu{
+	display: table;
+	margin: 0 auto;
+	padding-bottom: 10px;
+
+}
+
+#myVideo{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+#bandeannonce {
+	height: 500px;
+}
+
+.container {
+	margin: 0px 10%;
+}
+
+.left{
+	float: left;
+	width: 50%;
+}
+
+h2{
+	font-size: 18px;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+
+}
+
+h3{
+	font-family: 'Indie Flower', cursive;
+}
+
+.right {
+	float: right;
+	width: 50%;
+}
+
+h4 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 15px;
+}
+
+.voix {
+	border: 1px;
+	margin: 15px;
+	padding: 15px 0;
+	text-align: center;
+	width: 220px;
+}
+
+#casting{
+	margin:0 auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h5 {
+	font-size: 18px;
+	color: black;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+
+h6 {
+	color: grey;
+	font-size: 12px;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+@media all and (orientation:portrait) 
+{
+
+
+h1 {
+	font-size: 30px;
+	
+}
+
+#myVideo{
+	display: none;
+}
+
+}
