@@ -187,5 +187,27 @@ h6 {
 	h3 {
 		font-size: 8px;
 	}
+
+	#casting{
+	margin: auto;
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+	.voix {
+	border: 1px;
+	margin: 15px;
+	padding: 15px 0;
+	text-align: center;
+	width: 150px;
+	}
+
+	img {
+		width: 100px;
+		height: auto;
+	}
+
+
 	
 }
