@@ -143,40 +143,32 @@ h6 {
 
 @media all and (max-width: 780px) 
 {
-
-h1 {
+	body{
+		background-color: rgb(211,238,237);
+	}
+	h1 {
 	font-size: 30px;
-}
-
-#myVideo {
+	}
+	#myVideo {
 	display: none;
-}
-
-.left {
+	}
+	.left {
 	float: center;
 	padding-bottom: 10px;
-}
-
-.right {
+	}
+	.right {
 	float: center;
 	float: bottom;
 	padding-bottom: 5px;
-}
-
-h3 {
+	}
+	h3 {
 	font-size: 8px;
-}
-
-body {
-	background-color: white; 
-}
-
-.voix {
+	}
+	.voix {
 	border: 1px;
 	margin: 15px;
-	padding: 5px 0;
+	padding: 5px;
 	text-align: center;
 	width: 100px;
-}
-
+	}
 }
