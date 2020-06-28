@@ -163,6 +163,10 @@ h1 {
 	padding-bottom: 5px;
 }
 
+h3 {
+	font-size: 8px;
+}
+
 body {
 	background-color: white; 
 }
