@@ -144,31 +144,31 @@ h6 {
 @media all and (max-width: 780px) 
 {
 	body{
-		background-color: rgb(211,238,237);
+		background-color: rgb(99,198,250);
 	}
 	h1 {
-	font-size: 30px;
+		font-size: 30px;
 	}
 	#myVideo {
-	display: none;
-	}
-	.left {
-	float: center;
-	padding-bottom: 10px;
-	}
-	.right {
-	float: center;
-	float: bottom;
-	padding-bottom: 5px;
+		display: none;
 	}
 	h3 {
-	font-size: 8px;
+		font-size: 8px;
+	}
+	#casting{
+		margin: 0 auto;
+  		width: 80%;
+  		display: flex;
+  		flex-wrap: wrap;
+  		justify-content: center;
 	}
 	.voix {
-	border: 1px;
-	margin: 15px;
-	padding: 5px;
-	text-align: center;
-	width: 100px;
+		border: 1px solid #F2F2F2;
+  		margin: 15px;
+  		padding: 15px 0;
+  		text-align: center;
+  		width: 50px;
+  		background: #FAFAFA;
+
 	}
 }
