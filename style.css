@@ -141,17 +141,38 @@ h6 {
 
 }
 
-@media all and (orientation:portrait) 
+@media all and (max-width: 780px) 
 {
-
 
 h1 {
 	font-size: 30px;
-	
 }
 
-#myVideo{
+#myVideo {
 	display: none;
+}
+
+.left {
+	float: center;
+	padding-bottom: 10px;
+}
+
+.right {
+	float: center;
+	float: bottom;
+	padding-bottom: 5px;
+}
+
+body {
+	background-color: white; 
+}
+
+.voix {
+	border: 1px;
+	margin: 15px;
+	padding: 5px 0;
+	text-align: center;
+	width: 100px;
 }
 
 }
