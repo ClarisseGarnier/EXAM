@@ -155,20 +155,18 @@ h6 {
 	h3 {
 		font-size: 8px;
 	}
+	.voix {
+		border: 1px solid #F2F2F2;
+  		margin: 15px;
+  		padding: 15px 0;
+  		text-align: center;
+  		width: 100px;
+	}
 	#casting{
 		margin: 0 auto;
   		width: 80%;
   		display: flex;
   		flex-wrap: wrap;
   		justify-content: center;
-	}
-	.voix {
-		border: 1px solid #F2F2F2;
-  		margin: 15px;
-  		padding: 15px 0;
-  		text-align: center;
-  		width: 50px;
-  		background: #FAFAFA;
-
 	}
 }
