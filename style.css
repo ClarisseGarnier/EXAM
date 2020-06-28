@@ -141,32 +141,51 @@ h6 {
 
 }
 
-@media all and (max-width: 780px) 
+@media all and (max-width:980px) 
 {
-	body{
+
+	body
+	{
 		background-color: rgb(99,198,250);
+	
 	}
-	h1 {
+	.container {
+		margin: 0 auto;
+		width:90%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.left{
+		width: auto;
+		float: center;
+		text-align: center;
+		height: 50%;
+	}
+	iframe {
+		height: 80%;
+		width: auto;
+	}
+
+	.right {
+		width: auto;
+		float: center;
+		padding-top: 10px;
+		text-align: center;
+		height: 50%;
+	}
+
+	h1 
+	{
 		font-size: 30px;
 	}
+
 	#myVideo {
 		display: none;
 	}
+
 	h3 {
 		font-size: 8px;
 	}
-	.voix {
-		border: 1px solid #F2F2F2;
-  		margin: 15px;
-  		padding: 15px 0;
-  		text-align: center;
-  		width: 100px;
-	}
-	#casting{
-		margin: 0 auto;
-  		width: 80%;
-  		display: flex;
-  		flex-wrap: wrap;
-  		justify-content: center;
-	}
+	
 }
