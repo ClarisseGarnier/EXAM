@@ -200,7 +200,7 @@ h6 {
 	margin: 15px;
 	padding: 15px 0;
 	text-align: center;
-	width: 150px;
+	width: 70px;
 	}
 
 	img {
@@ -208,6 +208,10 @@ h6 {
 		height: auto;
 	}
 
-
+ @media all and (max-width:980px) { 
+    
+	background-image {
+		display: none;
+	}
 	
 }
