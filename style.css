@@ -195,12 +195,14 @@ h6 {
 	flex-wrap: wrap;
 	justify-content: center;
 	}
+
 	.voix {
 	border: 1px;
 	margin: 15px;
 	padding: 15px 0;
 	text-align: center;
-	width: 70px;
+	width: 110px;
+	flex: 1;
 	}
 
 	img {
@@ -208,10 +210,9 @@ h6 {
 		height: auto;
 	}
 
- @media all and (max-width:980px) { 
-    
-	background-image {
+	footer {
 		display: none;
 	}
+
 	
 }
